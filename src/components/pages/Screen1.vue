@@ -88,14 +88,15 @@
             dataModelForDynamicType="string" id="8f0a467a-b552-42a5-ac9d-307971286b66"
             v-bind:style="{'width':'25.3125px','height':'25.875px','zIndex':14,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
         </NucGroupElement>
-        <WImage v-bind:blank="false" v-bind:rounded="false" stretch="none"
+        <WImage top="10.533176285826462%" left="23.86952380952381%" v-bind:blank="false" v-bind:rounded="false"
+          stretch="none"
           imageUrl="https://sm.ign.com/t/ign_tr/video/p/pokemon-profiles-bulbasaur-1/pokemon-profiles-bulbasaur-1_pr5y.1200.jpg"
-          v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black" v-bind:aspectRatio="true"
-          dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
-          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
-          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string" position="absolute"
-          top="10.533176285826462%" left="23.86952380952381%" id="d5bbfb93-0526-4a1b-b61a-a29c0751fc74"
-          v-bind:style="{'width':'281.5px','height':'140.75px','maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px','zIndex':5}"/>
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+          id="d5bbfb93-0526-4a1b-b61a-a29c0751fc74"
+          v-bind:style="{'width':'281.5px','height':'140.75px','zIndex':5,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
       </NucGroupElement>
     </NucGridCell>
   </NucGridPage>
